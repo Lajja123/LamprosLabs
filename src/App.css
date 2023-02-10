@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: JosefinSans-Regular;
+  src: url(../public/JosefinSans-Regular.ttf);
+}
+.JosefinSans-Regular {
+  font-family: JosefinSans-Regular;
+}
