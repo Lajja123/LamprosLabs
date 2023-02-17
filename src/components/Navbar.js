@@ -1,166 +1,36 @@
-import React from "react";
-import logo from "../assets/images/lampros-labs-logo.png";
-import { Link } from "react-router-dom";
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/navbar.css";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
-import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import logo from "../assets/images/lampros-labs-logo.png";
 
-const pages = ["Home", "About Us", "Products", "Inheritance"];
 function Navbar() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const navRef = useRef();
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-
   return (
     <>
-      {/* <nav className="lmplab-navbar-main">
-        <div className="logo-div">
-          <Link to="/">
-            <img src={logo} alt="logo" className="logo" />
-          </Link>
-        </div>
-        <div className="lmplab-navbar-menus">
-          <ul className="navbar-menus">
-            <link to="/">
-              <li>Home</li>
-            </link>
-            <link to="/about-us">
-              <li>About Us</li>
-            </link>
-            <link to="/products">
-              <li>Products</li>
-            </link>
-            <link to="/inheritokens">
-              <li>Inheritance</li>
-            </link>
-          </ul>
-        </div>
-      </nav> */}
-      <AppBar
-        position="static"
-        sx={{
-          backgroundColor: "transparent",
-          padding: "10px 0px",
-          position: "relative",
-          zIndex: "50",
-        }}
-      >
-        <Container maxWidth="xl">
-          <Toolbar disableGutters>
-            {/* ...............Responsive Design............ */}
+      <div className="main-navbar">
+        <header>
+          <nav ref={navRef}>
+            <a href="/#">Home</a>
+            <a href="/#">About Us</a>
+            <a href="/#">Products</a>
+            <a href="/#">Inheritokens</a>{" "}
+          </nav>
+          <div className="navbar-logo-main">
+            <img src={logo} className="navbar-logo"></img>
+          </div>
+        </header>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes />
+        </button>
 
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                  display: { xs: "block", md: "none" },
-                }}
-              >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-            </Box>
-            <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
-            <Typography
-              variant="h5"
-              noWrap
-              component="a"
-              href=""
-              sx={{
-                mr: 2,
-                display: { xs: "flex", md: "none" },
-                flexGrow: 1,
-                fontFamily: "monospace",
-                fontWeight: 700,
-                letterSpacing: ".3rem",
-                color: "inherit",
-                textDecoration: "none",
-              }}
-            >
-              LOGO
-            </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
-                >
-                  {page}
-                </Button>
-              ))}
-            </Box>
-            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
-            <Typography
-              variant="h6"
-              noWrap
-              component="a"
-              href="/"
-              sx={{
-                mr: 2,
-                display: { xs: "none", md: "flex" },
-                fontFamily: "monospace",
-                fontWeight: 700,
-                letterSpacing: ".3rem",
-                color: "inherit",
-                textDecoration: "none",
-              }}
-            >
-              LOGO
-            </Typography>
-          </Toolbar>
-        </Container>
-      </AppBar>
+        <button className="nav-btn" onClick={showNavbar}>
+          <FaBars />
+        </button>
+      </div>
     </>
   );
 }

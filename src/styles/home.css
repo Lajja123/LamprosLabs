@@ -1,0 +1,230 @@
+/* ............section1 css................. */
+.homepage-secion1-main {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.section1-bgImg-main {
+  width: 100%;
+  min-width: 300px;
+  margin: 30px 0px;
+}
+.section1-bgImg {
+  width: 60%;
+  margin: 0 auto;
+}
+.section1-position-main {
+  flex-direction: column;
+  margin: 0 auto;
+  /* border-left: solid 1px white; */
+  width: 100%;
+  max-width: 1500px;
+  min-width: 900px;
+  position: absolute;
+  top: 33%;
+  right: 0;
+  left: 0px;
+  bottom: 0;
+}
+.section1-heading {
+  font-family: slava-antipov-quanty-special-demo;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 30px;
+  line-height: 12vh;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.color-change-text {
+  color: #07006a;
+  background-color: #a6ff35;
+  padding-left: 20px;
+}
+#section1-button {
+  background-color: #ffffff;
+  border: none;
+  font-family: slava-antipov-quanty-special-demo;
+  color: #2a01fe;
+  box-shadow: -3.5px 10.5px 19px -7.5px #000000;
+  border-radius: 50px;
+  letter-spacing: 12px;
+  padding: 20px 0px;
+  width: 40%;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding-left: 20px;
+  text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
+}
+.section1-left-border {
+  border-left: 1px solid white;
+}
+/* .............section2 css.................. */
+.homepage-secion2-main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section2-flex {
+  width: 60%;
+  margin: 0px 100px;
+  text-align: left;
+}
+.section2-pera {
+  color: #ffffff;
+  font-family: JosefinSans-Regular;
+  font-size: 1.5rem;
+  line-height: 4vh;
+  text-align: left;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+.section2-Img {
+  width: 50%;
+  min-width: 500px;
+}
+#section2-button {
+  background-color: #a6ff35;
+  color: #07006a;
+  font-family: slava-antipov-quanty-special-demo;
+  border-radius: 50px;
+  width: auto;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 17px 50px;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 3px 5.5px 25.5px 0 #000000;
+  text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
+  margin-top: 20px;
+}
+/* ..........section3 css............ */
+.homepage-secion3-main {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.section3-card {
+  border-radius: 30px;
+  height: auto;
+  width: 60%;
+  max-width: 300px;
+  background-color: #07006a;
+  padding: 40px 70px;
+  /* margin: 0px 40px 0px 0px; */
+  text-align: left;
+  min-height: 340px;
+  position: relative;
+}
+.jtKTCe {
+  display: none !important;
+}
+.kXteup {
+  font-size: 3em !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  width: 80px !important;
+  height: 80px !important;
+}
+.kXteup:hover {
+  background-color: #a6ff35 !important;
+  color: #07006a !important;
+}
+.Slxdj {
+  font-size: 3em !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  width: 80px !important;
+  height: 80px !important;
+}
+.section3-card-title {
+  color: #00ffff;
+  text-transform: uppercase;
+  font-family: slava-antipov-quanty-special-demo;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.section3-card-desc {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 20px 0px;
+  font-family: "JosefinSans-Regular";
+  letter-spacing: 5px;
+  font-weight: 700;
+  width: 100%;
+  line-height: 30px;
+}
+.section3-card-button {
+  background-color: #00ffff;
+  font-family: slava-antipov-quanty-special-demo;
+  border-radius: 50px;
+  width: auto;
+  border: none;
+  text-transform: uppercase;
+  color: #07006a;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 20px 20px;
+  box-shadow: 3px 5.5px 25.5px 0 #000000;
+  text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10%;
+}
+/* ...........section4 CSS........... */
+.homepage-secion4-main {
+  width: 100%;
+  margin-top: 50px;
+}
+.sectio4-title {
+  font-family: "slava-antipov-quanty-special-demo";
+  color: #a6ff35;
+  font-size: 5rem;
+  letter-spacing: 15px;
+  font-weight: 300;
+}
+.item {
+  background-color: #ffffff;
+  /* width: 50%;
+  height: 50px;
+  min-width: 900px; */
+  /* display: flex; */
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+.plus-img {
+  width: 50px;
+  height: 50px;
+}
+.faqs-qu1 {
+  color: #07006a;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.faq-que-main {
+  background-color: #ffffff;
+  /* width: 50%;
+  height: 50px;
+  min-width: 900px; */
+  display: flex;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  align-items: center;
+}

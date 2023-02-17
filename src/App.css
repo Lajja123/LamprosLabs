@@ -44,3 +44,10 @@
 .JosefinSans-Regular {
   font-family: JosefinSans-Regular;
 }
+@font-face {
+  font-family: slava-antipov-quanty-special-demo;
+  src: url(../public/slava-antipov-quanty-special-demo.ttf);
+}
+.JosefinSans-Regular {
+  font-family: slava-antipov-quanty-special-demo;
+}

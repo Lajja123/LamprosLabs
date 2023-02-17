@@ -1,0 +1,11 @@
+.footer-main {
+  padding: 0 2rem;
+  background-color: transparent;
+  box-shadow: -3.5px 10.5px 19px -8.5px #000000;
+}
+.footer-flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #00ffff;
+}
