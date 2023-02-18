@@ -1,0 +1,65 @@
+.products-section1-card{
+    border-radius: 30px;
+    height: auto;
+    width: 60%;
+    max-width: 300px;
+    background-color: #07006a;
+    padding: 40px 70px;
+    /* margin: 0px 40px 0px 0px; */
+    text-align: left;
+    min-height: 340px;
+    position: relative;
+}
+.products-section1-card-title{
+    color: #00ffff;
+    text-transform: uppercase;
+    font-family: slava-antipov-quanty-special-demo;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.products-section1-card-desc{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 20px 0px;
+    font-family: "JosefinSans-Regular";
+    letter-spacing: 5px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 30px;
+}
+.products-title{
+    color: #A6FF35;
+    text-transform: uppercase;
+    font-family: slava-antipov-quanty-special-demo;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.products-section1-card-button {
+    /* background-image: url("../assets/images/card-bgimg.png"); */
+  font-family: slava-antipov-quanty-special-demo;
+  border-radius: 50px;
+  width: auto;
+  border: none;
+  text-transform: uppercase;
+  color: #07006a;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  padding: 20px 20px;
+  box-shadow: 3px 5.5px 25.5px 0 #000000;
+  text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10%;
+}
+.section1-img-main{
+    width:50%;
+    max-width: 900px;
+    height: auto;
+}
+.section1-img{
+    width: 100%;
+    
+}
