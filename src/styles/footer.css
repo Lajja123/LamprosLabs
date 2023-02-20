@@ -2,6 +2,8 @@
   padding: 0 2rem;
   background-color: transparent;
   margin-top: 50px;
+  /* position: relative; */
+  /* z-index: 1; */
   /* box-shadow: -3.5px 10.5px 19px -8.5px #000000; */
 }
 .footer-flex1 {
@@ -10,17 +12,15 @@
   justify-content: space-around;
   border-bottom: 1px solid #00ffff;
   height: 30vh;
-  
 }
-p .footer-copyright{
-  color:#ffffff !important;
+p .footer-copyright {
+  color: #ffffff !important;
 }
-.footer-icon{
+.footer-icon {
   width: 40px;
   max-width: 900px;
   padding: 10px;
 }
-.footer-icon-main{
+.footer-icon-main {
   width: 100%;
- 
 }

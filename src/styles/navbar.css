@@ -6,6 +6,8 @@ header {
   padding: 0 2rem;
   background-color: transparent;
   box-shadow: -3.5px 10.5px 19px -8.5px #000000;
+  position: relative;
+  z-index: 1;
 }
 .navbar-logo-main {
   height: auto;
