@@ -1,16 +1,208 @@
+/* ...............section1 css.................. */
 .aboutUs-main-bg {
-  background-image: url("../assets//images/home-background1.png");
+  background-image: url("../assets//images/aboutUsbg.png");
   height: auto;
   min-height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  max-width: 100vw;
+  background-position: inherit;
+
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 0;
   left: 0;
+}
+.aboutUs-main {
+  margin-top: 10% !important;
+  margin: 30px;
+}
+.aboutUs-title {
+  font-family: "slava-antipov-quanty-special-demo";
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 25px;
+  line-height: 12vh;
+  text-align: center;
+  /* width: 90%; */
+  margin: 0 auto;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.section1-aboutUs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.aboutUs-section1-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+}
+.aboutUs-section1-card-desc {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 15px 0px;
+  font-family: "JosefinSans-Regular";
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: left;
+  line-height: 50px;
+}
+.aboutImg-main-div {
+  width: 50%;
+  max-width: 900px;
+}
+.aboutImg {
+  width: 100%;
+}
+.aboutImg-main-div {
+  width: 100%;
+  min-width: 800px;
+  max-width: 1200px;
+}
+.margin-desc {
+  width: 120%;
+}
+.aboutUs-desc3 {
+  margin: 0px 40px;
+}
+/* ...................section2 css.................... */
+.aboutUs-section2-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 150px;
+  background-color: #07006a;
+  padding: 50px;
+  border-radius: 30px;
+}
+.section2-aboutUs {
+  width: 100%;
+  margin-top: 5%;
+}
+.visionImg {
+  width: 100px;
+  min-width: 150px;
+  padding: 30px;
+}
+.section2-aboutUs-div {
+  text-align: left;
+}
+.vision-section2 {
+  text-transform: uppercase;
+  color: #a6ff35;
+  font-weight: 300;
+  letter-spacing: 15px;
+  font-family: "slava-antipov-quanty-special-demo";
+  margin: 0px;
+  font-size: 2.5rem;
+}
+.desc-section2 {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 5px;
+  font-family: "JosefinSans-Regular";
+  font-size: 1.4rem;
+  line-height: 30px;
+}
+/* ..............section3 css....... */
+.section3-aboutUs {
+  width: 100%;
+}
+.aboutUs-section3-card-desc {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0px 50px;
+  font-family: "JosefinSans-Regular";
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: left;
+  line-height: 50px;
+}
+.section3-title {
+  color: #00d7ff;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+.aboutUs-section3-card {
+  height: auto;
+
+  max-width: 450px;
+  background-color: #07006a;
+  padding: 20px 20px;
+  margin: 30px;
+  text-align: left;
+  min-height: 300px;
+}
+.rotate-text-main {
+  display: flex;
+}
+.rotate-text {
+  color: #00d7ff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 13px;
+  margin: 0;
+  transform: rotate(270deg);
+  font-family: "slava-antipov-quanty-special-demo";
+  padding: 0;
+  max-width: max-content;
+  position: absolute;
+  left: -144px;
+  bottom: 328px;
+}
+.rotate-text2 {
+  color: #00d7ff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 13px;
+  margin: 0;
+  transform: rotate(270deg);
+  font-family: "slava-antipov-quanty-special-demo";
+  padding: 0;
+  max-width: max-content;
+  position: absolute;
+}
+.rotate-text3 {
+  color: #00d7ff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 13px;
+  margin: 0;
+  transform: rotate(270deg);
+  font-family: "slava-antipov-quanty-special-demo";
+  padding: 0;
+  max-width: max-content;
+  position: absolute;
+}
+
+.aboutUs-section3-flexcard {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0px 30px;
+  font-family: "JosefinSans-Regular";
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: left;
+  line-height: 40px;
+}
+
+.section3-card-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutUs-section3-pera {
+  color: #00d7ff;
+  font-size: 25px;
+  padding: 0px 30px;
+  font-family: "JosefinSans-Regular";
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: left;
+  line-height: 40px;
 }
