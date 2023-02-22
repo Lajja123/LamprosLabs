@@ -1,11 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import "../styles/Inheritokens.css";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Inheritokens() {
   return (
     <>
       <div className="inheri-main-bg">
+        <Navbar />
         <div className="inheri-main">
           <h1 className="inheri-title">Inheritokens</h1>
           <section className="section1-inheri">
@@ -28,8 +31,8 @@ function Inheritokens() {
             </div>
           </section>
         </div>
+        <Footer />
       </div>{" "}
-      <Outlet></Outlet>
     </>
   );
 }

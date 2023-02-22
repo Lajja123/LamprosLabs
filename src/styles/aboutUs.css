@@ -10,10 +10,6 @@
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
-  position: absolute;
-  top: -20px;
-  right: 0;
-  left: 0;
 }
 .aboutUs-main {
   margin-top: 10% !important;
@@ -115,28 +111,30 @@
 .aboutUs-section3-card-desc {
   color: #ffffff;
   font-size: 25px;
-  padding: 0px 50px;
+
   font-family: "JosefinSans-Regular";
   letter-spacing: 5px;
   font-weight: 800;
   text-align: left;
+  margin: 50px 150px;
   line-height: 50px;
 }
 .section3-title {
-  color: #00d7ff;
-  font-size: 4rem;
-  font-weight: 400;
+  color: #2df8c6;
+  font-size: 4.2rem;
+  font-weight: 600;
+
   letter-spacing: 10px;
 }
 .aboutUs-section3-card {
-  height: auto;
+  height: 500px;
 
   max-width: 450px;
   background-color: #07006a;
   padding: 20px 20px;
-  margin: 30px;
+  /* margin: 30px; */
   text-align: left;
-  min-height: 300px;
+  max-height: 600px;
 }
 .rotate-text-main {
   display: flex;
@@ -145,39 +143,40 @@
   color: #00d7ff;
   font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 13px;
+  letter-spacing: 10px;
   margin: 0;
-  transform: rotate(270deg);
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
   font-family: "slava-antipov-quanty-special-demo";
-  padding: 0;
+  padding: 10px;
+  text-align: left;
   max-width: max-content;
-  position: absolute;
-  left: -144px;
-  bottom: 328px;
 }
 .rotate-text2 {
   color: #00d7ff;
   font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 13px;
+  letter-spacing: 10px;
   margin: 0;
-  transform: rotate(270deg);
+  text-align: left;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  writing-mode: vertical-lr;
   font-family: "slava-antipov-quanty-special-demo";
-  padding: 0;
-  max-width: max-content;
-  position: absolute;
+  padding: 10px;
 }
 .rotate-text3 {
   color: #00d7ff;
   font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 13px;
+  letter-spacing: 10px;
   margin: 0;
-  transform: rotate(270deg);
+  text-align: left;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  writing-mode: vertical-lr;
   font-family: "slava-antipov-quanty-special-demo";
-  padding: 0;
-  max-width: max-content;
-  position: absolute;
+  padding: 10px;
 }
 
 .aboutUs-section3-flexcard {
@@ -197,12 +196,14 @@
   align-items: center;
 }
 .aboutUs-section3-pera {
-  color: #00d7ff;
+  color: #2df8c6;
   font-size: 25px;
-  padding: 0px 30px;
+  margin: 0 auto;
   font-family: "JosefinSans-Regular";
   letter-spacing: 5px;
   font-weight: 800;
-  text-align: left;
+  text-align: center;
   line-height: 40px;
+  width: 60%;
+  padding-top: 70px;
 }

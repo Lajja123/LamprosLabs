@@ -1,31 +1,31 @@
 export const question = [
   {
     id: 1,
-    question: "What are the services do you offer",
+    question: "What is Inheritokens?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?",
+      "Inheritokens uses smart contract technology to ensure that your assets are transferred to your nominee only in the event of your death. It also allows you to update your nominee and make changes to your assets at any time.",
   },
   {
     id: 2,
-    question: "what are our preferred method of payment",
+    question: "What is xCompute Protocol?",
     answer:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam",
   },
   {
     id: 3,
-    question: "Are your services beginners friendly",
+    question: " How can xCompute Protocol help me?",
     answer:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,",
   },
   {
     id: 4,
-    question: "what how does it take to upgrade a package",
+    question: "Is xCompute Protocol secure?",
     answer:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi.",
   },
   {
     id: 5,
-    question: "Where are your offices located around the world",
+    question: "How can I get started with xCompute Protocol?",
     answer:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi.",
   },

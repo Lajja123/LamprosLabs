@@ -1,7 +1,6 @@
 /* ............section1 css................. */
 .homepage-secion1-main {
   width: 100%;
-  margin-top: 10%;
 }
 .lmplab-homepage-main-bg {
   background-image: url("../assets//images/home-background1.png");
@@ -14,10 +13,6 @@
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
 }
 .section1-bgImg-main {
   width: 100%;
@@ -35,7 +30,7 @@
   max-width: 1500px;
   min-width: 900px;
   position: absolute;
-  top: 10%;
+  top: 30%;
   right: 0;
   left: 0px;
 }
@@ -200,7 +195,7 @@
 /* ...........section4 CSS........... */
 .homepage-secion4-main {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .sectio4-title {
   font-family: "slava-antipov-quanty-special-demo";
@@ -208,14 +203,14 @@
   font-size: 5rem;
   letter-spacing: 15px;
   font-weight: 300;
+  margin: 30px 0px;
 }
 .item {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 20px 30px;
   border-radius: 20px;
   margin: 0 auto;
   align-items: center;
-  margin: 20px 0px;
 }
 .accordion-icon {
   width: 50px;
@@ -236,6 +231,15 @@
   text-align: justify;
 }
 .faq-accordion-main {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
+}
+.faqsub {
+  display: none;
+}
+.faqsub.visible {
+  display: block;
+}
+.accordion-ans {
+  padding: 0px 10px;
 }

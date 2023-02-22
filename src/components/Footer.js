@@ -18,12 +18,19 @@ function Footer() {
         {" "}
         <div className="navbar-logo-main">
           <Link to="/">
-          <img src={logo} className="navbar-logo"></img></Link>
+            <img src={logo} className="navbar-logo"></img>
+          </Link>
         </div>
-        <nav ref={navRef}>
-        <Link to="/about-us" ><a href="/#">About Us</a></Link>
-            <Link to="/products"><a href="/#">Products</a></Link>
-            <Link to="/inheritokens"><a href="/#">Inheritokens</a></Link>
+        <nav ref={navRef} className="footer-navbar">
+          <Link to="/about-us">
+            <a href="/#">About Us</a>
+          </Link>
+          <Link to="/products">
+            <a href="/#">Products</a>
+          </Link>
+          <Link to="/inheritokens">
+            <a href="/#">Inheritokens</a>
+          </Link>
         </nav>
         <div className="footer-border"></div>
       </div>

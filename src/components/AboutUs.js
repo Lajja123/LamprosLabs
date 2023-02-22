@@ -4,11 +4,14 @@ import "../styles/aboutUs.css";
 import aboutImg from "../assets/images/aboutUsImg.png";
 import vision from "../assets/images/vision.png";
 import mission from "../assets/images/mission.png";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function AboutUs() {
   return (
     <>
       <div className="aboutUs-main-bg">
+        <Navbar />
         <div className="aboutUs-main">
           <h1 className="aboutUs-title">
             <span className="color-change-text">About</span> Us
@@ -130,8 +133,8 @@ function AboutUs() {
             </p>
           </section>
         </div>
+        <Footer />
       </div>
-      <Outlet></Outlet>
     </>
   );
 }
