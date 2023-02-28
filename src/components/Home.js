@@ -22,7 +22,6 @@ function Home() {
         <section className="homepage-secion1-main">
           <div className="section1-bgImg-main">
             <img className="section1-bgImg" src={section1Img}></img>
-            <div className="left-border"></div>
           </div>
           <div className="section1-position-main">
             <h1 className="section1-heading">bringing the future </h1>

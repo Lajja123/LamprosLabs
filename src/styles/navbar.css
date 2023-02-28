@@ -4,10 +4,13 @@ header {
   justify-content: space-between;
   height: 100px;
   padding: 0 2rem;
-  background-color: transparent;
-  box-shadow: -3.5px 10.5px 19px -10.5px #000000;
   position: relative;
   z-index: 1;
+}
+.navbar-flex {
+  background-color: transparent;
+  box-shadow: -3.5px 10.5px 19px -10.5px #000000;
+  height: 100px;
 }
 .navbar-logo-main {
   height: auto;
@@ -21,18 +24,13 @@ header {
 }
 
 nav a {
-  margin: 0 7px;
+  margin: 0 30px;
   color: #ffffff;
   font-family: "slava-antipov-quanty-special-demo";
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 6px;
   padding-left: 20px;
-}
-
-nav a:hover {
-  color: #00ffff;
-  text-decoration: underline;
 }
 
 .nav-btn {
@@ -44,17 +42,20 @@ nav a:hover {
   color: var(--textColor);
   visibility: hidden;
   opacity: 0;
-  font-size: 1.8rem;
+  font-size: 1rem;
+  color: #ffffff;
 }
 
-/* header div,
+header div,
 nav {
   display: flex;
   align-items: center;
-} */
+}
+
+/* .....................Mobile Responsive design......................... */
 
 @media only screen and (max-width: 768px) {
-  header .nav-btn {
+  .nav-btn {
     visibility: visible;
     opacity: 1;
   }
@@ -63,14 +64,14 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--mainColor);
+    background-image: url("../assets//images/home-background1.png");
     transition: 1s;
     transform: translateY(-100vh);
   }
@@ -83,12 +84,47 @@ nav {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    display: none;
   }
 
   nav a {
     font-size: 1.5rem;
   }
+  .navbar-flex {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 0 25px;
+    box-shadow: -3.5px 10.5px 19px -10.5px #000000;
+    justify-content: space-between;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+  }
 }
 .active-link {
   color: red;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav a {
+    margin: 0 10px;
+    color: #ffffff;
+    font-family: "slava-antipov-quanty-special-demo";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding-left: 10px;
+  }
+  .navbar-logo {
+    width: 60%;
+    height: auto;
+  }
 }

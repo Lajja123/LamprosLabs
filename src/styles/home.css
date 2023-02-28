@@ -16,6 +16,7 @@
 }
 .section1-bgImg-main {
   width: 100%;
+
   min-width: 300px;
 }
 .section1-bgImg {
@@ -23,25 +24,26 @@
   margin: 0 auto;
 }
 .section1-position-main {
-  flex-direction: column;
   margin: 0 auto;
-  /* border-left: solid 1px white; */
-  width: 100%;
+  border-left: solid 1px white;
+  width: 90%;
   max-width: 1500px;
   min-width: 900px;
   position: absolute;
   top: 30%;
   right: 0;
   left: 0px;
+  height: 65vh;
+  padding-left: 50px;
 }
 .section1-heading {
   font-family: slava-antipov-quanty-special-demo;
   font-size: 4rem;
   font-weight: 500;
-  letter-spacing: 30px;
-  line-height: 12vh;
+  letter-spacing: 25px;
+  line-height: 13vh;
   text-align: center;
-  width: 90%;
+
   margin: 0 auto;
   color: #ffffff;
   text-transform: uppercase;
@@ -242,4 +244,21 @@
 }
 .accordion-ans {
   padding: 0px 10px;
+}
+
+/* .....................mobile responsive ..................... */
+@media only screen and (max-width: 425px) {
+  .section1-position-main {
+    margin: 0 auto;
+    border-left: solid 1px white;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 900px;
+    position: relative;
+    top: 30%;
+    right: 0;
+    left: 0px;
+    height: 65vh;
+    padding-left: 50px;
+  }
 }
