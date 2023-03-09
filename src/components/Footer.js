@@ -18,10 +18,10 @@ function Footer() {
         {" "}
         <div className="navbar-logo-main">
           <Link to="/">
-            <img src={logo} className="navbar-logo"></img>
+            <img src={logo} className="footer-logo"></img>
           </Link>
         </div>
-        <nav ref={navRef} className="footer-navbar">
+        <footer ref={navRef} className="footer-navbar">
           <Link to="/about-us">
             <a href="/#">About Us</a>
           </Link>
@@ -31,7 +31,7 @@ function Footer() {
           <Link to="/inheritokens">
             <a href="/#">Inheritokens</a>
           </Link>
-        </nav>
+        </footer>
         <div className="footer-border"></div>
       </div>
       <div className="footer-icon-main">

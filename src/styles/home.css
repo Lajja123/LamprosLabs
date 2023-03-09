@@ -3,7 +3,7 @@
   width: 100%;
 }
 .lmplab-homepage-main-bg {
-  background-image: url("../assets//images/home-background1.png");
+  background-image: url("../assets//images/home-backgroung.png");
   height: auto;
   min-height: 150vh;
   background-size: cover;
@@ -16,7 +16,7 @@
 }
 .section1-bgImg-main {
   width: 100%;
-
+  margin-top: 50px;
   min-width: 300px;
 }
 .section1-bgImg {
@@ -43,7 +43,6 @@
   letter-spacing: 25px;
   line-height: 13vh;
   text-align: center;
-
   margin: 0 auto;
   color: #ffffff;
   text-transform: uppercase;
@@ -56,18 +55,20 @@
 #section1-button {
   background-color: #ffffff;
   border: none;
-  font-family: slava-antipov-quanty-special-demo;
-  color: #2a01fe;
-  box-shadow: -3.5px 10.5px 19px -7.5px #000000;
-  border-radius: 50px;
-  letter-spacing: 12px;
-  padding: 20px 0px;
-  width: 40%;
-  text-transform: uppercase;
-  font-size: 18px;
+  font-family: "Josefin Sans";
+  font-style: normal;
   font-weight: 600;
+  font-size: 24px;
+  line-height: 154.02%;
+  letter-spacing: 0.435em;
+  color: #1a0f5e;
+  box-shadow: -3.5px 10.5px 19px -7.5px #000000;
+  border-radius: 58px;
+  padding: 20px 30px;
+  /* width: 40%; */
+  text-transform: uppercase;
   margin-top: 30px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
 }
 .section1-left-border {
@@ -97,7 +98,8 @@
   font-weight: 600;
 }
 .section2-Img {
-  width: 50%;
+  width: 663px;
+  height: 663px;
   min-width: 500px;
 }
 #section2-button {
@@ -136,6 +138,9 @@
   text-align: left;
   min-height: 340px;
   position: relative;
+}
+.homepage-secion3-main-tablet {
+  display: none;
 }
 .jtKTCe {
   display: none !important;
@@ -178,18 +183,26 @@
 }
 .section3-card-button {
   background-color: #00ffff;
-  font-family: slava-antipov-quanty-special-demo;
-  border-radius: 50px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 154.02%;
+  /* identical to box height, or 22px */
+
+  letter-spacing: 0.56em;
+
+  color: #1a0f5e;
+
+  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
   width: auto;
   border: none;
   text-transform: uppercase;
-  color: #07006a;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 10px;
+
   padding: 20px 20px;
   box-shadow: 3px 5.5px 25.5px 0 #000000;
-  text-shadow: 9px 4px 5px rgba(3, 3, 3, 0.29);
+
   margin-top: 20px;
   position: absolute;
   bottom: 10%;
@@ -247,18 +260,257 @@
 }
 
 /* .....................mobile responsive ..................... */
-@media only screen and (max-width: 425px) {
+
+@media only screen and (max-width: 1024px) {
+  #section1-button {
+    font-size: 15px;
+    line-height: 154.02%;
+    letter-spacing: 0.3em;
+    padding: 15px 20px;
+    margin-top: 30px;
+  }
+  .faq-accordion-main {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .section1-heading {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 15px;
+    line-height: 8vh;
+  }
   .section1-position-main {
     margin: 0 auto;
-    border-left: solid 1px white;
-    width: 90%;
-    max-width: 1500px;
-    min-width: 900px;
-    position: relative;
-    top: 30%;
-    right: 0;
-    left: 0px;
-    height: 65vh;
+    height: 39vh;
     padding-left: 50px;
+  }
+  .section2-Img {
+    width: 643px;
+    height: 500px;
+    min-width: 100px;
+  }
+  #section2-button {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    padding: 15px 30px;
+    margin-top: 20px;
+  }
+  .section2-pera {
+    font-size: 15px;
+    line-height: 3vh;
+    text-align: left;
+    letter-spacing: 4px;
+  }
+  .homepage-secion2-main {
+    margin-top: 50px;
+  }
+  .section3-card {
+    width: 60%;
+    max-width: 300px;
+    padding: 40px 50px;
+    min-height: 300px;
+    position: relative;
+  }
+  .section3-card-title {
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .section3-card-desc {
+    font-size: 14px;
+    padding: 20px 0px;
+    width: 100%;
+    line-height: 30px;
+  }
+  .section3-card-button {
+    font-size: 12px;
+    line-height: 154.02%;
+    letter-spacing: 0.2rem;
+    color: #1a0f5e;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  .Slxdj {
+    font-size: 2em !important;
+    width: 40px !important;
+    height: 50px !important;
+  }
+  .kXteup {
+    font-size: 2em !important;
+    width: 40px !important;
+    height: 50px !important;
+  }
+  .sectio4-title {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    margin: 30px 0px;
+  }
+  .faq-que-main {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .accordion-icon {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section1-position-main {
+    min-width: 500px;
+    padding-left: 0px !important;
+    height: 30vh;
+  }
+  #section1-button {
+    font-size: 10px;
+    line-height: 154.02%;
+    letter-spacing: 0.3em;
+    padding: 15px 20px;
+    margin-top: 30px;
+  }
+  .section1-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 10px;
+    line-height: 5vh;
+  }
+  .section2-pera {
+    font-size: 10px;
+    line-height: 2vh;
+    text-align: left;
+    letter-spacing: 3px;
+  }
+  .section2-Img {
+    width: 350px;
+    height: 350px;
+    min-width: 100px;
+  }
+  #section2-button {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  .section2-flex {
+    width: 60%;
+    margin: 0px 95px;
+    text-align: left;
+  }
+  .faq-accordion-main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .faq-que-main {
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .homepage-secion3-main-tablet {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .homepage-secion3-main {
+    display: none;
+  }
+  .section3-card {
+    width: 55%;
+    max-width: 300px;
+    padding: 30px 30px;
+    min-height: 243px;
+    position: relative;
+  }
+  .section3-card-title {
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .section3-card-desc {
+    font-size: 12px;
+    padding: 20px 0px;
+    width: 100%;
+    line-height: 30px;
+  }
+  .section3-card-button {
+    font-size: 10px;
+    line-height: 150.02%;
+    letter-spacing: 0.2rem;
+    color: #1a0f5e;
+    padding: 15px 20px;
+    margin-top: 20px;
+  }
+  .icon-position2 {
+    position: fixed;
+    bottom: 47% !important;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon-style {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 20px !important;
+    width: 15px !important;
+    color: #fff;
+    cursor: pointer;
+  }
+  .icon-position {
+    position: fixed;
+    bottom: 51% !important;
+    right: 25px;
+    z-index: 20;
+  }
+  .accordion-icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .section1-position-main {
+    min-width: 381px;
+    padding-left: 0px !important;
+    height: 19vh;
+  }
+  .section1-heading {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 3vh;
+  }
+  #section1-button {
+    font-size: 7px;
+    line-height: 154.02%;
+    letter-spacing: 0.2em;
+    padding: 12px 17px;
+    margin-top: 20px;
+  }
+  .section1-position-main {
+    min-width: 381px;
+    padding-left: 0px !important;
+    height: 21vh;
+    top: 21% !important;
+  }
+  .section2-Img {
+    display: none;
+  }
+  .homepage-secion2-main {
+    margin-top: 30px;
+  }
+  .icon-style {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 10px !important;
+    width: 20px !important;
+    color: #fff;
+    cursor: pointer;
   }
 }

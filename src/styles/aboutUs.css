@@ -1,12 +1,11 @@
 /* ...............section1 css.................. */
 .aboutUs-main-bg {
-  background-image: url("../assets//images/aboutUsbg.png");
+  background-image: url("../assets//images/background.png");
   height: auto;
   min-height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: inherit;
-
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
@@ -30,7 +29,7 @@
 .section1-aboutUs {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: top;
 }
 .aboutUs-section1-card {
   display: flex;
@@ -39,7 +38,7 @@
 }
 .aboutUs-section1-card-desc {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 15px 0px;
   font-family: "JosefinSans-Regular";
   letter-spacing: 5px;
@@ -52,7 +51,7 @@
   max-width: 900px;
 }
 .aboutImg {
-  width: 100%;
+  width: 70%;
 }
 .aboutImg-main-div {
   width: 100%;
@@ -110,7 +109,7 @@
 }
 .aboutUs-section3-card-desc {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
 
   font-family: "JosefinSans-Regular";
   letter-spacing: 5px;

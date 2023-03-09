@@ -1,0 +1,63 @@
+.top-to-btm {
+  position: relative;
+}
+.icon-position {
+  position: fixed;
+  bottom: 53%;
+  right: 25px;
+  z-index: 20;
+}
+.icon-position2 {
+  position: fixed;
+  bottom: 48%;
+  right: 25px;
+  z-index: 20;
+}
+.icon-position3 {
+  position: fixed;
+  bottom: 43%;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 30px;
+  color: #fff;
+  cursor: pointer;
+  /* animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out; */
+}
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #551b54;
+  border: 2px solid #551b54;
+}
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+input[type="radio"].icon-style :checked:after {
+  width: 11px;
+  height: 12px;
+  border-radius: 10px;
+  background-color: #134e6f;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
