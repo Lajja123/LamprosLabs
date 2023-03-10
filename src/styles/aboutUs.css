@@ -11,7 +11,7 @@
   width: 100%;
 }
 .aboutUs-main {
-  margin-top: 10% !important;
+  margin-top: 50px !important;
   margin: 30px;
 }
 .aboutUs-title {
@@ -21,7 +21,6 @@
   letter-spacing: 25px;
   line-height: 12vh;
   text-align: center;
-  /* width: 90%; */
   margin: 0 auto;
   color: #ffffff;
   text-transform: uppercase;
@@ -34,44 +33,39 @@
 .aboutUs-section1-card {
   display: flex;
   flex-direction: column;
-  margin: 0px 40px;
+  margin: 0 auto;
+  width: 60%;
 }
 .aboutUs-section1-card-desc {
   color: #ffffff;
   font-size: 20px;
   padding: 15px 0px;
   font-family: "JosefinSans-Regular";
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 800;
   text-align: left;
-  line-height: 50px;
+  line-height: 45px;
 }
 .aboutImg-main-div {
   width: 50%;
   max-width: 900px;
 }
 .aboutImg {
-  width: 70%;
+  width: 80%;
 }
 .aboutImg-main-div {
-  width: 100%;
-  min-width: 800px;
-  max-width: 1200px;
+  width: 40%;
+  min-width: 300px;
 }
-.margin-desc {
-  width: 120%;
-}
-.aboutUs-desc3 {
-  margin: 0px 40px;
-}
+
 /* ...................section2 css.................... */
 .aboutUs-section2-flex {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 30px 150px;
+  margin: 30px 200px;
   background-color: #07006a;
-  padding: 50px;
+  padding: 30px;
   border-radius: 30px;
 }
 .section2-aboutUs {
@@ -98,9 +92,9 @@
 .desc-section2 {
   color: #ffffff;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-family: "JosefinSans-Regular";
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 30px;
 }
 /* ..............section3 css....... */
@@ -109,14 +103,14 @@
 }
 .aboutUs-section3-card-desc {
   color: #ffffff;
-  font-size: 20px;
-
+  font-size: 22px;
   font-family: "JosefinSans-Regular";
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 800;
   text-align: left;
-  margin: 50px 150px;
-  line-height: 50px;
+  line-height: 40px;
+  width: 70%;
+  margin: 0 auto;
 }
 .section3-title {
   color: #2df8c6;
@@ -126,12 +120,11 @@
   letter-spacing: 10px;
 }
 .aboutUs-section3-card {
-  height: 500px;
+  height: 400px;
 
   max-width: 450px;
   background-color: #07006a;
   padding: 20px 20px;
-  /* margin: 30px; */
   text-align: left;
   max-height: 600px;
 }
@@ -180,29 +173,347 @@
 
 .aboutUs-section3-flexcard {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 0px 30px;
   font-family: "JosefinSans-Regular";
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-weight: 800;
   text-align: left;
-  line-height: 40px;
+  line-height: 31px;
 }
-
 .section3-card-flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 50px;
 }
 .aboutUs-section3-pera {
   color: #2df8c6;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0 auto;
   font-family: "JosefinSans-Regular";
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-weight: 800;
   text-align: center;
   line-height: 40px;
   width: 60%;
   padding-top: 70px;
+}
+
+/* ,...........responsive design................ */
+@media only screen and (max-width: 1024px) {
+  .aboutUs-title {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 20px;
+    line-height: 12vh;
+  }
+  .aboutUs-section1-card-desc {
+    font-size: 15px;
+    padding: 15px 0px;
+
+    letter-spacing: 3px;
+
+    line-height: 35px;
+  }
+  .aboutUs-section2-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 100px;
+    padding: 30px;
+  }
+  .vision-section2 {
+    letter-spacing: 12px;
+    margin: 0px;
+    font-size: 2rem;
+  }
+  .visionImg {
+    width: 100px;
+    min-width: 100px;
+    padding: 30px;
+  }
+  .desc-section2 {
+    letter-spacing: 4px;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .section3-title {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    margin: 30px 0px;
+  }
+  .aboutUs-section3-card-desc {
+    font-size: 17px;
+
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .rotate-text {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 0;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+  }
+  .rotate-text-main {
+    display: block;
+    /* width: 78%; */
+  }
+  .section3-card-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .aboutUs-section3-flexcard {
+    font-size: 15px;
+    padding: 0px 30px;
+
+    letter-spacing: 3px;
+
+    line-height: 31px;
+  }
+  .aboutUs-section3-card {
+    height: 221px;
+    max-width: 600px;
+
+    padding: 20px 20px;
+
+    margin: 20px 0px;
+  }
+  .rotate-text2 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: left;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+  }
+  .rotate-text3 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 0;
+    text-align: left;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+  }
+  .section3-aboutUs {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .aboutUs-section3-pera {
+    font-size: 20px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    line-height: 40px;
+    width: 60%;
+    padding-top: 28px;
+  }
+  .aboutImg-main-div {
+    width: 40%;
+    min-width: 300px;
+    position: relative;
+    top: 101px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aboutUs-title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 10px;
+    line-height: 12vh;
+  }
+  .aboutUs-section1-card-desc {
+    font-size: 10px;
+    padding: 15px 0px;
+    letter-spacing: 2px;
+    line-height: 22px;
+  }
+  .desc-section2 {
+    letter-spacing: 3px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .vision-section2 {
+    letter-spacing: 12px;
+    margin: 0px;
+    font-size: 1.5rem;
+  }
+  .visionImg {
+    width: 100px;
+    min-width: 81px;
+    padding: 15px;
+  }
+  .aboutUs-section2-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 20px;
+    padding: 30px;
+  }
+  .aboutUs-section3-card-desc {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 25px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .section3-title {
+    font-size: 3rem;
+    letter-spacing: 10px;
+    margin: 30px 0px;
+  }
+  .rotate-text {
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    margin: 0;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+  }
+  .aboutUs-section3-flexcard {
+    font-size: 12px;
+    padding: 0px 30px;
+    letter-spacing: 3px;
+    line-height: 27px;
+  }
+  .aboutUs-section3-card {
+    height: 177px;
+    max-width: 600px;
+    padding: 20px 20px;
+    margin: 20px 0px;
+  }
+  .rotate-text2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 6px;
+  }
+  .rotate-text3 {
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+  }
+  .aboutUs-section3-pera {
+    font-size: 12px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    line-height: 26px;
+    width: 60%;
+    padding-top: 28px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .color-change-text {
+    color: #07006a;
+    background-color: #a6ff35;
+    /* padding-left: 9px; */
+    padding: 1px 10px;
+  }
+  .aboutUs-title {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 10vh;
+  }
+  .aboutUs-main {
+    margin-top: 20px !important;
+    margin: 30px;
+  }
+  .section1-aboutUs {
+    display: block;
+    width: 100%;
+    align-items: top;
+  }
+  .aboutUs-section1-card-desc {
+    font-size: 10px;
+    padding: 15px 0px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+  .aboutImg {
+    width: 60%;
+  }
+  .aboutImg-main-div {
+    width: 22%;
+    min-width: 366px;
+    position: relative;
+    top: 5px;
+  }
+  .aboutUs-section1-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .aboutUs-section2-flex {
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 20px;
+    padding: 30px;
+  }
+  .visionImg {
+    width: 51px;
+    min-width: 77px;
+    padding: 10px;
+  }
+  .vision-section2 {
+    letter-spacing: 6px;
+    margin: 0px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .desc-section2 {
+    letter-spacing: 2px;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .aboutUs-section3-card-desc {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 22px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .aboutUs-section3-flexcard {
+    font-size: 10px;
+    padding: 0px 20px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .rotate-text {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin: 0;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+  }
+  .rotate-text2 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+  .rotate-text3 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+  .aboutUs-section3-pera {
+    font-size: 10px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    line-height: 23px;
+    width: 90%;
+    padding-top: 28px;
+  }
 }

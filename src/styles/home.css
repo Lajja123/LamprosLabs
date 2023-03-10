@@ -509,8 +509,118 @@
     border: 2px solid #fff;
     border-radius: 50%;
     height: 10px !important;
-    width: 20px !important;
+    width: 10px !important;
     color: #fff;
     cursor: pointer;
+  }
+
+  .icon-position {
+    position: fixed;
+    bottom: 45% !important;
+    right: 12px !important;
+    z-index: 20;
+  }
+  .icon-position2 {
+    position: fixed;
+    bottom: 43% !important;
+    right: 12px !important;
+    z-index: 20;
+  }
+  .icon-position3 {
+    position: fixed;
+    bottom: 47% !important;
+    right: 12px !important;
+    z-index: 20;
+  }
+  .section2-pera {
+    font-size: 10px;
+    line-height: 2vh;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .section2-flex {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .homepage-secion2-main {
+    margin-top: 30px;
+    display: block;
+  }
+  #section2-button {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding: 10px 15px;
+    margin-top: 20px;
+  }
+  .Slxdj {
+    font-size: 1.5em !important;
+  }
+  .kXteup {
+    font-size: 1.5em !important;
+    width: 20px !important;
+    height: 50px !important;
+  }
+  .section3-card-desc {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    line-height: 21px;
+    letter-spacing: 3px;
+  }
+  .section3-card-title {
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  .homepage-secion3-main-tablet {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .section3-card {
+    width: 64%;
+    max-width: 300px;
+    padding: 30px 30px;
+    min-height: 207px;
+    position: relative;
+  }
+  .section3-card-button {
+    font-size: 8px;
+    line-height: 100.02%;
+    letter-spacing: 3px;
+    color: #1a0f5e;
+    padding: 13px 15px;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  .sectio4-title {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 30px 0px;
+  }
+  .homepage-secion4-main {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .accordion-icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px 8px;
+  }
+  .faq-que-main {
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: justify;
+  }
+  .item {
+    padding: 10px 20px;
   }
 }

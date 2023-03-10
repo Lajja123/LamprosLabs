@@ -54,8 +54,9 @@
   font-family: JosefinSans-Regular;
   letter-spacing: -25px;
   font-size: 10rem;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   font-weight: 900;
+  width: 50%;
 }
 .products-section1-card-button {
   background-color: #a6ff35;
@@ -78,12 +79,15 @@
   margin: 0 auto;
   margin-left: auto;
   margin-right: 0;
-  max-width: 900px;
+  max-width: 1200px;
   height: auto;
 }
 .section1-img {
   width: 100%;
 }
+/* .lguFiu {
+  width: 60% !important;
+} */
 .products-flex-section1 {
   display: flex;
   justify-content: space-between;
@@ -98,4 +102,26 @@
 } */
 .kXteup {
   background-color: #07006a !important;
+}
+
+/* ...............responsive design................... */
+@media only screen and (max-width: 1024px) {
+  .products-title {
+    color: #a6ff35;
+    text-transform: uppercase;
+    font-family: JosefinSans-Regular;
+    letter-spacing: -25px;
+    font-size: 10rem;
+    /* margin-left: 10%; */
+    font-weight: 900;
+    width: 50%;
+  }
+  .products-section1-img-main {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 1200px;
+    height: auto;
+  }
 }
